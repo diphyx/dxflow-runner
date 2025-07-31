@@ -94,10 +94,10 @@ download_necessary_file() {
         file_url="https://get.docker.com"
     elif [ "$1" = "startup" ]; then
         file_path="/dx/startup.sh"
-        file_url="https://raw.githubusercontent.com/diphyx/dxflow/main/startup.sh"
+        file_url="https://raw.githubusercontent.com/diphyx/dxflow-runner/main/startup.sh"
     elif [ "$1" = "compose" ]; then
         file_path="/dx/docker-compose.yaml"
-        file_url="https://raw.githubusercontent.com/diphyx/dxflow/main/docker-compose.yaml"
+        file_url="https://raw.githubusercontent.com/diphyx/dxflow-runner/main/docker-compose.yaml"
     else
         return 1
     fi
