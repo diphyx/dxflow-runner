@@ -9,8 +9,8 @@ mkdir -p /dx
 
 # Download necessary files
 curl -fsSL -o "/dx/docker.sh" "https://get.docker.com"
-curl -fsSL -o "/dx/startup.sh" "https://raw.githubusercontent.com/diphyx/dxflow/main/startup.sh"
-curl -fsSL -o "/dx/docker-compose.yaml" "https://raw.githubusercontent.com/diphyx/dxflow/main/docker-compose.yaml"
+curl -fsSL -o "/dx/startup.sh" "https://raw.githubusercontent.com/diphyx/dxflow-runner/main/startup.sh"
+curl -fsSL -o "/dx/docker-compose.yaml" "https://raw.githubusercontent.com/diphyx/dxflow-runner/main/docker-compose.yaml"
 
 # Create empty files
 touch /dx/variables.env
