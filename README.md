@@ -15,7 +15,7 @@ export DXO_COMPUTE_UNIT_EXTENSIONS=
 export DXO_AUTHORIZED_KEYS=
 
 # Run the command
-curl -fsSL https://raw.githubusercontent.com/diphyx/dxflow/main/boot.sh | sh -s
+curl -fsSL https://raw.githubusercontent.com/diphyx/dxflow-runner/main/boot.sh | sh -s
 ```
 
 # Environment Variables
